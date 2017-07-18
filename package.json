@@ -1,0 +1,40 @@
+{
+  "name": "mogo",
+  "version": "1.0.0",
+  "description": "training project",
+  "devDependencies": {
+    "autoprefixer": "6.7.x",
+    "browser-sync": "2.18.12",
+    "gulp": "3.9.1",
+    "gulp-plumber": "1.1.0",
+    "gulp-postcss": "6.4.0",
+    "gulp-sass": "3.1.0",
+    "@htmlacademy/editorconfig-cli": "1.x"
+  },
+  "scripts": {
+    "test": "editorconfig-cli",
+    "build": "gulp style",
+    "start": "gulp serve"
+  },
+  "editorconfig-cli": [
+    "*.html",
+    "*.json",
+    "*.js",
+    "js/**/*.js",
+    "img/**/*.svg",
+    "sass/**/*.{sass,scss}"
+  ],
+  "engines": {
+    "node": "6.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitryKMRK/Mogo.git"
+  },
+  "author": "DmitryKMRK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitryKMRK/Mogo/issues"
+  },
+  "homepage": "https://github.com/DmitryKMRK/Mogo#readme"
+}
