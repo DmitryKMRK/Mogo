@@ -1,0 +1,69 @@
+@mixin h1-font {
+	font-family: "Montserrat";
+	font-size: 150px;
+	line-height: 140px;
+	font-weight: 700;
+	color: $white;
+}
+
+@mixin h2-font {
+	font-family: "Kaushan Script";
+	font-size: 72px;
+	font-weight: 400;
+	color: $white;
+}
+
+@mixin h3-font {
+	font-family: "Montserrat";
+	font-size: 30px;
+	font-weight: 700;
+	color: $grey;
+}
+
+@mixin h4-font {
+	font-family: "Kaushan Script";
+	font-size: 24px;
+	font-weight: 400;
+	color: $grey;
+}
+
+@mixin h5-font {
+	font-family: "Montserrat";
+	font-size: 14px;
+	font-weight: 400;
+	color: $grey;
+}
+
+@mixin h6-font {
+	font-family: "Montserrat";
+	font-size: 72px;
+	font-weight: 700;
+	color: $white;
+}
+
+@mixin text-font {
+	font-family: "Roboto";
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 400;
+	font-style: normal;
+	color: $lightgrey;
+}
+
+@mixin italic-text-font {
+	font-family: "Roboto";
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 300;
+	font-style: italic;
+	color: $lightgrey;
+}
+
+@mixin italic-reviews-font {
+	font-family: "Roboto";
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 300;
+	font-style: italic;
+	color: $lightgrey;
+}
