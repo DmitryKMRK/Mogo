@@ -4,6 +4,7 @@
 	line-height: 140px;
 	font-weight: 700;
 	color: $white;
+	text-transform: uppercase;
 }
 
 @mixin h2-font {
@@ -18,6 +19,7 @@
 	font-size: 30px;
 	font-weight: 700;
 	color: $grey;
+	text-transform: uppercase;
 }
 
 @mixin h4-font {
