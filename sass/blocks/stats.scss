@@ -1,0 +1,34 @@
+.stats {
+	background: $blue;
+}
+
+.stats .container {
+	display: flex;
+}
+
+.stats__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+	padding-top: 77px;
+	padding-bottom: 86px;
+	border-right: 1px solid #b5eae0;
+
+	&:first-child {
+	border-left: 1px solid #b5eae0;
+	}
+}
+
+.stats__item-heading {
+	@include h6-font;
+	margin: 0 auto;
+	margin-bottom: 9px;
+}
+
+.stats__item-description {
+	font-size: 14px;
+	color: $white;
+	text-transform: uppercase;
+}

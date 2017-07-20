@@ -1,0 +1,117 @@
+.we-do {
+	padding-top: 119px;
+	padding-bottom: 92px;
+}
+
+.we-do__subheading {
+	@include h4-font;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.we-do__heading {
+	@include h3-font;
+	text-align: center;
+	margin-top: 16px;
+}
+
+.we-do__description {
+	@include text-font;
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 77px;
+}
+
+.we-do__content {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 89px;
+}
+
+.we-do__img {
+	width: 570px;
+}
+
+.we-do__texts {
+	width: 570px;
+}
+
+.we-do__texts-item {
+	margin-top: 10px;
+
+	&--1 {
+		margin-top: 0;
+	}
+
+	&--active .we-do__texts-description {
+		display: block;
+	}
+
+	&--active .we-do__texts-heading-arrow {
+		transform: scaleY(-1);
+	}
+}
+
+.we-do__texts-heading-block {
+	display: flex;
+	justify-content: space-between;
+	padding: 22px 20px 20px 60px;
+	border: 1px solid #e5e5e5;
+	position: relative;
+
+	&::before {
+		content: "";
+		position: absolute;
+		background-repeat: no-repeat;
+		top: 13px;
+		left: 15px;
+	}
+
+	&--1::before {
+		width: 30px;
+		height: 30px;
+		background-image: url("../img/icon-we-do-photography.png");
+	}
+
+	&--2::before {
+		width: 28px;
+		height: 32px;
+		background-image: url("../img/icon-we-do-creativity.png");
+	}
+
+	&--3::before {
+		width: 32px;
+		height: 32px;
+		background-image: url("../img/icon-we-do-web-design.png");
+	}
+}
+
+.we-do__texts-heading {
+	@include h5-font;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.we-do__texts-heading-arrow {
+	width: 22px;
+	height: 12px;
+	background: url("../img/icon-we-do-arrow.png") no-repeat;
+	cursor: pointer;
+	transition: 0.5s all;
+}
+
+.we-do__texts-description {
+	display: none;
+	box-sizing: border-box;
+	@include italic-text-font;
+	border: 1px solid #e5e5e5;
+	border-top: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 13px;
+	padding-right: 20px;
+	padding-left: 19px;
+	height: 180px;
+}
+

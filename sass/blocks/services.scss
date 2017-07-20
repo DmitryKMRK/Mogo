@@ -1,0 +1,80 @@
+.services {
+	padding-top: 75px;
+	padding-bottom: 71px;
+}
+
+.services__subheading {
+	@include h4-font;
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+.services__heading {
+	@include h3-font;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 55px;
+}
+
+.services__content {
+	display: flex;
+	flex-direction: column;
+}
+
+.services__content-row {
+	display: flex;
+
+	&--1 {
+		border-bottom: 1px solid #e5e5e5;
+	}
+}
+
+.services__item {
+	box-sizing: border-box;
+	width: 400px;
+	padding: 24px 20px 33px 90px;
+	position: relative;
+
+	&::before {
+		content: "";
+		position: absolute;
+		left: 30px;
+		top: 48px;
+		width: 32px;
+		height: 31px;
+	}
+
+	&--1::before {
+		background: url("../img/icon-photography.png") no-repeat;
+	}
+
+	&--2::before {
+		background: url("../img/icon-web-design.png") no-repeat;
+	}
+
+	&--3::before {
+		background: url("../img/icon-creativity.png") no-repeat;
+	}
+
+	&--4::before {
+		background: url("../img/icon-seo.png") no-repeat;
+	}
+
+	&--5::before {
+		background: url("../img/icon-css.png") no-repeat;
+	}
+
+	&--6::before {
+		background: url("../img/icon-digital.png") no-repeat;
+	}
+}
+
+.services__item-heading {
+	@include h5-font;
+	margin-bottom: 0;
+}
+
+.services__item-description {
+	@include text-font;
+	margin-top: 9px;
+}

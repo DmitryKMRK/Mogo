@@ -68,23 +68,23 @@
       <div class="container">
         <div class="stats__item">
           <h6 class="stats__item-heading">42</h6>
-          <p class="stats__item-description">Web design projects</p>
+          <span class="stats__item-description">Web design projects</span>
         </div>
         <div class="stats__item">
           <h6 class="stats__item-heading">123</h6>
-          <p class="stats__item-description">Happy clients</p>
+          <span class="stats__item-description">Happy clients</span>
         </div>
         <div class="stats__item">
           <h6 class="stats__item-heading">15</h6>
-          <p class="stats__item-description">Award winners</p>
+          <span class="stats__item-description">Award winners</span>
         </div>
         <div class="stats__item">
           <h6 class="stats__item-heading">99</h6>
-          <p class="stats__item-description">Cups of coffee</p>
+          <span class="stats__item-description">Cups of coffee</span>
         </div>
         <div class="stats__item">
           <h6 class="stats__item-heading">24</h6>
-          <p class="stats__item-description">Members</p>
+          <span class="stats__item-description">Members</span>
         </div>
       </div>
     </div>
@@ -93,30 +93,34 @@
         <h4 class="services__subheading">We work with</h4>
         <h3 class="services__heading">Amazing services</h3>
         <div class="services__content">
-          <div class="services__item">
-            <h5 class="services__item-heading">Photography</h5>
-            <p class="services__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          <div class="services__content-row services__content-row--1">
+            <div class="services__item services__item--1">
+              <h5 class="services__item-heading">Photography</h5>
+              <p class="services__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+            <div class="services__item services__item--2">
+              <h5 class="services__item-heading">Web design</h5>
+              <p class="services__item-description">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+            <div class="services__item services__item--3">
+              <h5 class="services__item-heading">Creativity</h5>
+              <p class="services__item-description">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
           </div>
-          <div class="services__item">
-            <h5 class="services__item-heading">Web design</h5>
-            <p class="services__item-description">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-          </div>
-          <div class="services__item">
-            <h5 class="services__item-heading">Creativity</h5>
-            <p class="services__item-description">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-          </div>
-          <div class="services__item">
-            <h5 class="services__item-heading">SEO</h5>
-            <p class="services__item-description">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-          </div>
-          <div class="services__item">
-            <h5 class="services__item-heading">CSS/HTML</h5>
-            <p class="services__item-description">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
-          </div>
-          <div class="services__item">
-            <h5 class="services__item-heading">Digital</h5>
-            <p class="services__item-description">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-          </div>
+          <div class="services__content-row services__content-row--2">
+            <div class="services__item services__item--4">
+              <h5 class="services__item-heading">SEO</h5>
+              <p class="services__item-description">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+            </div>
+            <div class="services__item services__item--5">
+              <h5 class="services__item-heading">CSS/HTML</h5>
+              <p class="services__item-description">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
+            </div>
+            <div class="services__item services__item--6">
+              <h5 class="services__item-heading">Digital</h5>
+              <p class="services__item-description">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+          </div>          
         </div>
       </div>
     </div>
@@ -124,7 +128,9 @@
       <div class="container">
         <h4 class="design__subheading">For all devices</h4>
         <h3 class="design__heading">Unique design</h3>
-        <img src="" alt="" class="design__img">
+        <div class="design__img">
+          <img src="../img/design-img.png" alt="Unique Design">
+        </div>
       </div>
     </div>
     <div class="we-do">
@@ -133,18 +139,27 @@
         <h3 class="we-do__heading">What we do</h3>
         <p class="we-do__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <div class="we-do__content">
-          <div class="we-do__img"><img src="" alt=""></div>
+          <div class="we-do__img"><img src="../img/we-do-img.jpg" alt="What we do" width="570" height="380"></div>
           <div class="we-do__texts">
-            <div class="we-do__texts-item">
-              <h5 class="we-do__texts-heading">Photography</h5>
+            <div class="we-do__texts-item we-do__texts-item--1 we-do__texts-item--active">
+              <div class="we-do__texts-heading-block we-do__texts-heading-block--1">
+                <h5 class="we-do__texts-heading">Photography</h5>
+                <div class="we-do__texts-heading-arrow"></div>
+              </div>
               <p class="we-do__texts-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="we-do__texts-item">
-              <h5 class="we-do__texts-heading">Creativity</h5>
+            <div class="we-do__texts-item we-do__texts-item--2">
+              <div class="we-do__texts-heading-block we-do__texts-heading-block--2">
+                <h5 class="we-do__texts-heading">Creativity</h5>
+                <div class="we-do__texts-heading-arrow"></div>
+              </div>
               <p class="we-do__texts-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="we-do__texts-item">
-              <h5 class="we-do__texts-heading">Web design</h5>
+            <div class="we-do__texts-item we-do__texts-item--3">
+              <div class="we-do__texts-heading-block we-do__texts-heading-block--3">
+                <h5 class="we-do__texts-heading">Web design</h5>
+                <div class="we-do__texts-heading-arrow"></div>
+              </div>
               <p class="we-do__texts-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
           </div>
@@ -154,15 +169,15 @@
     <div class="reviews-slider reviews-slider--first">
       <div class="container">
         <div class="reviews-slider__arrow reviews-slider__arrow--prev"></div>
-        <div class="reviews-slider__item">
+        <div class="reviews-slider__item reviews-slider__item--1 reviews-slider__item--active">
           <p class="reviews-slider__description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
           <span class="reviews-slider__author">Jon Doe</span>
         </div>
-        <div class="reviews-slider__item">
+        <div class="reviews-slider__item reviews-slider__item--2">
           <p class="reviews-slider__description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
           <span class="reviews-slider__author">Roger Federer</span>
         </div>
-        <div class="reviews-slider__item">
+        <div class="reviews-slider__item reviews-slider__item--3">
           <p class="reviews-slider__description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
           <span class="reviews-slider__author">Stam Smith</span>
         </div>
@@ -176,18 +191,48 @@
         <p class="our-team__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <div class="our-team__img-block">
           <div class="our-team__img-item">
-            <div class="our-team__img"><img src="" alt=""></div>
-            <span class="our-team__name">Matthew Dix</span>
+            <div class="our-team__img">
+              <img src="../img/our-team-1.jpg" alt="Matthew Dix" width="380" height="470">
+              <div class="our-team__img-gradient">
+                <div class="our-team__img-social">
+                  <a href="/" class="our-team__img-social-link our-team__img-social-link--fb"></a>
+                  <a href="/" class="our-team__img-social-link our-team__img-social-link--tw"></a>
+                  <a href="/" class="our-team__img-social-link our-team__img-social-link--pint"></a>
+                  <a href="/" class="our-team__img-social-link our-team__img-social-link--inst"></a>
+                </div>
+              </div>
+            </div>
+            <h5 class="our-team__name">Matthew Dix</h5>
             <span class="our-team__role">Graphic Design</span>
           </div>
           <div class="our-team__img-item">
-            <div class="our-team__img"><img src="" alt=""></div>
-            <span class="our-team__name">Cristopher Campbell</span>
+            <div class="our-team__img">
+              <img src="../img/our-team-2.jpg" alt="Cristopher Campbell" width="380" height="470">
+              <div class="our-team__img-gradient">
+                <div class="our-team__img-social">
+                  <a href="/" class="our-team__img-social-link our-team__img-social-link--fb"></a>
+                  <a href="/" class="our-team__img-social-link our-team__img-social-link--tw"></a>
+                  <a href="/" class="our-team__img-social-link our-team__img-social-link--pint"></a>
+                  <a href="/" class="our-team__img-social-link our-team__img-social-link--inst"></a>
+                </div>
+              </div>
+            </div>
+            <h5 class="our-team__name">Cristopher Campbell</h5>
             <span class="our-team__role">Branding/UX Design</span>
           </div>
           <div class="our-team__img-item">
-            <div class="our-team__img"><img src="" alt=""></div>
-            <span class="our-team__name">Michael Fertig</span>
+            <div class="our-team__img">
+              <img src="../img/our-team-3.jpg" alt="Michael Fertig" width="380" height="470">
+              <div class="our-team__img-gradient">
+                <div class="our-team__img-social">
+                  <a href="/" class="our-team__img-social-link our-team__img-social-link--fb"></a>
+                  <a href="/" class="our-team__img-social-link our-team__img-social-link--tw"></a>
+                  <a href="/" class="our-team__img-social-link our-team__img-social-link--pint"></a>
+                  <a href="/" class="our-team__img-social-link our-team__img-social-link--inst"></a>
+                </div>
+              </div>
+            </div>
+            <h5 class="our-team__name">Michael Fertig</h5>
             <span class="our-team__role">Developer</span>
           </div>
         </div>
@@ -195,12 +240,9 @@
     </div>
     <div class="logos-block">
       <div class="container">
-        <div class="logos-block__item logos-block__item--1"></div>
-        <div class="logos-block__item logos-block__item--2"></div>
-        <div class="logos-block__item logos-block__item--3"></div>
-        <div class="logos-block__item logos-block__item--4"></div>
-        <div class="logos-block__item logos-block__item--5"></div>
-        <div class="logos-block__item logos-block__item--6"></div>
+        <div class="logos-block__img">
+          <img src="../img/logos.png" alt="Logos">
+        </div>
       </div>
     </div>
     <div class="portfolio">

@@ -1,0 +1,126 @@
+.our-team {
+	padding-top: 65px;
+	padding-bottom: 115px;
+}
+
+.our-team__subheading {
+	@include h4-font;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.our-team__heading {
+	@include h3-font;
+	margin-top: 16px;
+	text-align: center;
+}
+
+.our-team__description {
+	@include text-font;
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 77px;
+	text-align: center;
+}
+
+.our-team__img-block {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 89px;
+}
+
+.our-team__img-item {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.our-team__img {
+	width: 380px;
+	height: 470px;
+	background: $blue;
+	position: relative;
+}
+
+.our-team__img img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.5s all;
+}
+
+.our-team__img:hover img {
+	top: -10px;
+	left: -10px;
+}
+
+.our-team__img-gradient {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 380px;
+	height: 470px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+  background-image: linear-gradient( 0deg, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%);
+	opacity: 0;
+	transition: 0.5s all;
+}
+
+.our-team__img:hover .our-team__img-gradient {
+	opacity: 1;
+	top: -10px;
+	left: -10px;
+}
+
+.our-team__img-social {
+	display: flex;
+	width: 224px;
+}
+
+.our-team__img-social-link {
+	display: block;
+	box-sizing: border-box;
+	width: 25%;
+	height: 56px;
+	background-color: #fce38a;
+	border-left: 1px solid #f9bd87;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	&:hover {
+		background-color: #f38181;
+	}
+
+	&--fb {
+		background-image: url("../img/icon-our-team-fb.svg");
+	}
+
+	&--tw {
+		background-image: url("../img/icon-our-team-tw.svg");
+	}
+
+	&--pint {
+		background-image: url("../img/icon-our-team-pint.svg");
+	}
+
+	&--inst {
+		background-image: url("../img/icon-our-team-inst.svg");
+	}
+}
+
+.our-team__img-social-link:first-child {
+	border: none;
+}
+
+.our-team__name {
+	@include h5-font;
+	margin-top: 29px;
+	margin-bottom: 5px;
+}
+
+.our-team__role {
+	@include italic-text-font;
+}

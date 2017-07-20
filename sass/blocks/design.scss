@@ -1,0 +1,28 @@
+.design {
+	padding-top: 76px;
+	padding-bottom: 636px;
+	background: #efefef url("../img/design-back.jpg") top center no-repeat;
+}
+
+.design__subheading {
+	@include h4-font;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.design__heading {
+	@include h3-font;
+	text-align: center;
+	margin-top: 16px;
+}
+
+.design__img {
+	width: 597px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.design__img img {
+	position: absolute;
+	top: 54px;
+}
