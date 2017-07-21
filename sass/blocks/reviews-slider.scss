@@ -60,3 +60,25 @@
 	@include h4-font;
 	padding-left: 70px;
 }
+
+.reviews-slider--second {
+	padding-top: 107px;
+	padding-bottom: 160px;
+	background: $white;
+
+	.reviews-slider__item {
+
+		&--active::before {
+		content: "";
+		box-sizing: border-box;
+		position: absolute;
+		width: 210px;
+		height: 210px;
+		left: -30px;
+		top: -7px;
+		border: none;
+		border-radius: 50%;
+		background: url("../img/reviews-2-img.jpg") center no-repeat;
+		}
+	}
+}
