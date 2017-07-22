@@ -1,4 +1,76 @@
 .our-clients {
-	padding-top: 1px;
-	background: #efefef;
+	padding-top: 75px;
+	padding-bottom: 111px;
+	background: #efefef url("../img/our-clients-back.jpg") top center no-repeat;
+}
+
+.our-clients__subheading {
+	@include h4-font;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.our-clients__heading {
+	@include h3-font;
+	text-align: center;
+	margin-top: 16px;
+}
+
+.our-clients__content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 112px;
+}
+
+.our-clients__item {
+	box-sizing: border-box;
+	width: 520px;
+	padding-left: 140px;
+	position: relative;
+
+	&::after {
+		content: "";
+		position: absolute;
+		width: 110px;
+		height: 110px;
+		top: 13px;
+		left: 0;
+		border-radius: 50%;
+	}
+
+	&--1::after {
+		background: url("../img/our-clients-1.jpg") no-repeat;
+	}
+
+	&--2::after {
+		background: url("../img/our-clients-2.jpg") no-repeat;
+	}
+
+	&--3::after {
+		background: url("../img/our-clients-3.jpg") no-repeat;
+	}
+
+	&--4::after {
+		background: url("../img/our-clients-4.jpg") no-repeat;
+	}
+}
+
+.our-clients__name {
+	@include h5-font;
+	margin-bottom: 5px;
+}
+
+.our-clients__role {
+	@include italic-text-font;
+	color: $grey;
+}
+
+.our-clients__description {
+	margin-top: 36px;
+	font-family: "Roboto";
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 400;
+	color: $lightgrey;
 }
