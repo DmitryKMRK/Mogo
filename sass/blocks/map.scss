@@ -1,0 +1,29 @@
+.map {
+	padding-top: 98px;
+	padding-bottom: 75px;
+	background: #ededed url("../img/map-back.jpg") center no-repeat;
+}
+
+.map .container {
+	display: flex;
+	justify-content: center;
+}
+
+.map__open {
+	font-size: 24px;
+	font-weight: 700;
+	color: $accent;
+	text-transform: uppercase;
+	text-decoration: none;
+	position: relative;
+
+	&::before {
+		content: "";
+		width: 20px;
+		height: 26px;
+		position: absolute;
+		top: -40px;
+		left: 42%;
+		background: url("../img/icon-map.png") no-repeat;
+	}
+}

@@ -1,6 +1,6 @@
 .our-clients {
 	padding-top: 75px;
-	padding-bottom: 111px;
+	padding-bottom: 72px;
 	background: #efefef url("../img/our-clients-back.jpg") top center no-repeat;
 }
 
@@ -21,11 +21,14 @@
 	justify-content: space-between;
 	flex-wrap: wrap;
 	margin-top: 112px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 .our-clients__item {
 	box-sizing: border-box;
 	width: 520px;
+	margin-bottom: 39px;
 	padding-left: 140px;
 	position: relative;
 
