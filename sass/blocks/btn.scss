@@ -1,6 +1,7 @@
 .btn {
 	display: block;
 	box-sizing: border-box;
+	cursor: pointer;
 
 	&--page-header {
 		width: 160px;
@@ -14,6 +15,17 @@
 		color: $white;
 		text-decoration: none;
 		text-transform: uppercase;
+		text-align: center;
+	}
+
+	&--main-footer {
+		width: 150px;
+		background: $blue;
+		border: none;
+		font-size: 14px;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: $white;
 		text-align: center;
 	}
 }
