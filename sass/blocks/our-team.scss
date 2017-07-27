@@ -96,18 +96,34 @@
 
 	&--fb {
 		background-image: url("../img/icon-our-team-fb.svg");
+
+		&:hover {
+			background-image: url("../img/icon-our-team-fb-hover.svg");
+		}
 	}
 
 	&--tw {
 		background-image: url("../img/icon-our-team-tw.svg");
+
+		&:hover {
+			background-image: url("../img/icon-our-team-tw-hover.svg");
+		}
 	}
 
 	&--pint {
 		background-image: url("../img/icon-our-team-pint.svg");
+
+		&:hover {
+			background-image: url("../img/icon-our-team-pint-hover.svg");
+		}
 	}
 
 	&--inst {
 		background-image: url("../img/icon-our-team-inst.svg");
+
+		&:hover {
+			background-image: url("../img/icon-our-team-inst-hover.svg");
+		}
 	}
 }
 

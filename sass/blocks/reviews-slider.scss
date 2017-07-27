@@ -13,7 +13,7 @@
 .reviews-slider__arrow {
 	width: 12px;
 	height: 22px;
-	background: url("../img/icon-arrow-left.png") no-repeat;
+	background: url("../img/icon-arrow-left.svg") no-repeat;
 	cursor: pointer;
 	
 	&--prev {
@@ -47,7 +47,7 @@
 		border: 3px solid $blue;
 		left: 0;
 		top: 23px;
-		background: url("../img/icon-reviews-1.png") center no-repeat;
+		background: url("../img/icon-reviews-1.svg") center no-repeat;
 	}
 }
 

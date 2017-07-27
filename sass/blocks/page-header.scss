@@ -26,6 +26,21 @@
 	color: $white;
 	text-decoration: none;
 	text-transform: uppercase;
+	position: relative;
+
+	&:hover {
+		color: #fce38a;
+
+		&::after {
+			content: "";
+			position: absolute;
+			left: 0;
+			bottom: -7px;
+			width: 100%;
+			height: 3px;
+			background-color: #fce38a;
+		}
+	}
 
 	&:last-child {
 		margin-right: 0;
@@ -34,13 +49,31 @@
 	&--cart {
 		width: 18px;
 		height: 15px;
-		background: url("../img/icon-cart.png");
+		margin-top: -3px;
+		background: url("../img/icon-cart.svg") no-repeat;
+
+		&:hover {
+		background: url("../img/icon-cart-hover.svg") no-repeat;
+
+			&::after {
+				bottom: -15px;
+			}
+		}
 	}
 
 	&--search {
 		width: 18px;
 		height: 18px;
-		background: url("../img/icon-search.png");
+		margin-top: -4px;
+		background: url("../img/icon-search.svg") no-repeat;
+
+		&:hover {
+		background: url("../img/icon-search-hover.svg") no-repeat;
+
+			&::after {
+			bottom: -13px;
+			}
+		}
 	}
 }
 
@@ -56,6 +89,17 @@
 	width: 850px;
 	margin: 0 auto;
 	text-align: center;
+	position: relative;
+
+	&::after {
+		content: "";
+		position: absolute;
+		left: 394px;
+		bottom: -51px;
+		width: 60px;
+		height: 3px;
+		background-color: #ffffff;
+	}
 }
 
 .page-header__page-nav {
@@ -75,6 +119,17 @@
 	color: $white;
 	text-decoration: none;
 	text-transform: uppercase;
+	position: relative;
+
+	&:hover::after {
+		content: "";
+		position: absolute;
+		width: 70px;
+		height: 3px;
+		background-color: $accent;
+		left: 0;
+		top: -3px;
+	}
 
 	span {
 		font-size: 24px;

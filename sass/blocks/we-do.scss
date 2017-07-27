@@ -71,19 +71,19 @@
 	&--1::before {
 		width: 30px;
 		height: 30px;
-		background-image: url("../img/icon-we-do-photography.png");
+		background-image: url("../img/icon-we-do-photography.svg");
 	}
 
 	&--2::before {
 		width: 28px;
 		height: 32px;
-		background-image: url("../img/icon-we-do-creativity.png");
+		background-image: url("../img/icon-we-do-creativity.svg");
 	}
 
 	&--3::before {
 		width: 32px;
 		height: 32px;
-		background-image: url("../img/icon-we-do-web-design.png");
+		background-image: url("../img/icon-we-do-web-design.svg");
 	}
 }
 
@@ -96,7 +96,7 @@
 .we-do__texts-heading-arrow {
 	width: 22px;
 	height: 12px;
-	background: url("../img/icon-we-do-arrow.png") no-repeat;
+	background: url("../img/icon-we-do-arrow.svg") no-repeat;
 	cursor: pointer;
 	transition: 0.5s all;
 }

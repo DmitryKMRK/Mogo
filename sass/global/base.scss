@@ -2,3 +2,18 @@ body {
 	margin: 0;
 	font-family: "Montserrat";
 }
+
+h3 {
+	position: relative;
+
+	&::after {
+		content: "";
+		position: absolute;
+		width: 60px;
+		height: 3px;
+		background-color: $accent;
+		left: 50%;
+		bottom: -38px;
+		margin-left: -30px;
+	}
+}
