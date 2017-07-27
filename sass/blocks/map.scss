@@ -26,4 +26,15 @@
 		left: 42%;
 		background: url("../img/icon-map.svg") no-repeat;
 	}
+
+	&::after {
+		content: "";
+		position: absolute;
+		width: 60px;
+		height: 3px;
+		background-color: $accent;
+		bottom: -18px;
+		left: 50%;
+		margin-left: -30px;
+	}
 }
