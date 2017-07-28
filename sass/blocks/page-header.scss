@@ -27,18 +27,26 @@
 	text-decoration: none;
 	text-transform: uppercase;
 	position: relative;
+	transition: 0.5s all;
+
+	&::after {
+			content: "";
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			height: 3px;
+			background-color: #fce38a;
+			opacity: 0;
+			transition: 0.5s all;
+		}
 
 	&:hover {
 		color: #fce38a;
 
 		&::after {
-			content: "";
-			position: absolute;
-			left: 0;
+			opacity: 1;
 			bottom: -7px;
-			width: 100%;
-			height: 3px;
-			background-color: #fce38a;
 		}
 	}
 
@@ -121,14 +129,21 @@
 	text-transform: uppercase;
 	position: relative;
 
-	&:hover::after {
+	&::after {
 		content: "";
 		position: absolute;
 		width: 70px;
 		height: 3px;
 		background-color: $accent;
-		left: 0;
+		left: 210px;
 		top: -3px;
+		opacity: 0;
+		transition: 1s all;
+	}
+
+	&:hover::after {
+		left: 0;
+		opacity: 1;
 	}
 
 	span {

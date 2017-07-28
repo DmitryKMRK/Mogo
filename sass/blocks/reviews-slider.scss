@@ -59,6 +59,17 @@
 .reviews-slider__author {
 	@include h4-font;
 	padding-left: 70px;
+	position: relative;
+
+	&::after {
+		content: "";
+		position: absolute;
+		width: 60px;
+		height: 3px;
+		background-color: $accent;
+		left: 0;
+		top: 15px;
+	}
 }
 
 .reviews-slider--second {
