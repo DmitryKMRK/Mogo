@@ -59,6 +59,7 @@
 	padding: 22px 20px 20px 60px;
 	border: 1px solid #e5e5e5;
 	position: relative;
+	cursor: pointer;
 
 	&::before {
 		content: "";
@@ -97,7 +98,6 @@
 	width: 22px;
 	height: 12px;
 	background: url("../img/icon-we-do-arrow.svg") no-repeat;
-	cursor: pointer;
 	transition: 0.5s all;
 }
 
