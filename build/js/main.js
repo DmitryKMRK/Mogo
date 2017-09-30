@@ -74,3 +74,31 @@ $(document).ready(function(){
 		$('body,html').animate({scrollTop: top}, 1500);
 	});
 });
+
+//onScreen
+
+$(function() {
+  var about1 = new OnScreen({
+  	debounce: 100
+  });
+
+  about1.on('enter', '#aboutUsScroll', function() {
+    aboutUsImg1.classList.add('onScreen');
+  });
+
+  var about2 = new OnScreen({
+  	debounce: 400
+  });
+
+  about2.on('enter', '#aboutUsScroll', function() {
+    aboutUsImg2.classList.add('onScreen');
+  });
+
+  var about3 = new OnScreen({
+  	debounce: 700
+  });
+
+  about3.on('enter', '#aboutUsScroll', function() {
+    aboutUsImg3.classList.add('onScreen');
+  });
+});

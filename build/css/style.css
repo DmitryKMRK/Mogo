@@ -415,6 +415,9 @@ h3 {
     bottom: -38px;
     margin-left: -30px; }
 
+a.onScreen {
+  opacity: 1 !important; }
+
 .container {
   width: 1200px;
   margin: 0 auto; }
@@ -624,7 +627,9 @@ h3 {
   width: 380px;
   height: 250px;
   background: #95e1d3;
-  position: relative; }
+  position: relative;
+  opacity: 0;
+  transition: 1s all; }
 
 .about-us__img img {
   position: absolute;
